@@ -1,0 +1,193 @@
+html {
+    font-family: sans-serif;
+}
+
+h1, a {
+    color: white;
+
+}
+
+h2 {
+    color: rgb(0, 0, 0);
+}
+
+p {
+    color: white;
+    text-align: justify;
+}
+
+header {
+    background-color: #d10000b4;
+    padding: 1px 0 0px 0;
+}
+
+article h2 {
+    float: center;
+    text-align: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    border: 10px ridge white;
+    font-size: 200%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+article p {
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+}
+
+header #title {
+    padding: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+header #title h2 {
+    font-size: 300%;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-left: 20px;
+}
+
+article h1,h2 {display: block;}
+
+h1,h2 { display: inline; }
+
+#menu {
+    display: inline;
+    background-color: #d10000b4;
+}
+
+#menu ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+#menu li {
+    margin: 0;
+    padding: 5px;
+    display: inline;
+}
+
+footer {
+    padding: 10px 10px;
+    background-color: #000000e5;
+}
+
+body {
+    margin: 0 auto;
+    background-color: #BE1223;
+}
+
+.column1 {
+    float: left;
+    padding: 10px;
+    height: 500px;
+}
+
+.column2 {
+    float: left;
+    padding: 10px;
+    height: 1700px;
+}
+
+.left {
+    width: 25%;
+}
+
+.right {
+    width: 72%;
+}
+
+.leftSub {
+    width: 30%;
+}
+
+.rightSub {
+    width: 42%;
+}
+
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+#menu ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: rgb(3, 3, 3);
+}
+
+#menu li {
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: #111;
+}
+
+.active {
+    background-color: rgb(100, 100, 100);
+}
+
+#form .form_error {
+    color: red;
+}
+
+.hidden {
+    display: none;
+}
+
+#form p {
+    padding-top: 20px;
+    color: black;
+    text-align: center;
+}
+
+#tipsPage {
+    background-color: white;
+    height: 1300px;
+    padding: 20px;
+    text-align: center;
+}
+
+#tipsPage h1 {
+    color: black;
+    font-size: 700%;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#tipsPage h2 {
+    border-style: outset;
+    border-color: #BE1223;
+}
+
+#bios img, #bios h1, #bios h3 {
+    display: inherit;
+}
+
+#bios h1 {
+    color: black;
+    text-align: left;
+}
+
+#bios h2 {
+    font-family: monospace;
+}
